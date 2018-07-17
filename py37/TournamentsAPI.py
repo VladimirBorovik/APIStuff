@@ -1,14 +1,21 @@
-import json
-import requests
-import telepot
 
+import telepot
+import requests
 
 
 bot = telepot.Bot('661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0')
-meta_info = bot.getMe()
+meta_info = bot.getUpdates()
 
 
-print(meta_info)
+response = requests.get('https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates')
+
+print(response.json())
+
+bot.sendMessage(chat_id=190114760, text=meta_info)
+
+#https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates
+
+#print(meta_info)
 
 #print(meta_info)
 
