@@ -3,15 +3,16 @@ import telepot
 import requests
 
 
+message = 'From API!'
 bot = telepot.Bot('661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0')
 meta_info = bot.getUpdates()
 
 
-response = requests.get('https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates')
+response = requests.get('https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates').json()
 
-print(response.json())
+print(response['result'])
 
-bot.sendMessage(chat_id=190114760, text=meta_info)
+bot.sendMessage(chat_id=190114760, text=message)
 
 #https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates
 
