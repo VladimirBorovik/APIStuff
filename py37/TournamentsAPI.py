@@ -12,7 +12,11 @@ response = requests.get('https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxN
 
 print(response['result'])
 
-bot.sendMessage(chat_id=190114760, text=message)
+res = bot.getChat(chat_id=190114760)
+
+print(res)
+
+# bot.sendMessage(chat_id=190114760, text=message)
 
 #https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates
 

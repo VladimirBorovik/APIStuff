@@ -1,0 +1,126 @@
+[
+  {
+    'update_id': 502797829,
+    'message': {
+      'message_id': 1,
+      'from': {
+        'id': 190114760,
+        'is_bot': False,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'language_code': 'en-GB'
+      },
+      'chat': {
+        'id': 190114760,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'type': 'private'
+      },
+      'date': 1531833631,
+      'text': '/start',
+      'entities': [
+        {
+          'offset': 0,
+          'length': 6,
+          'type': 'bot_command'
+        }
+      ]
+    }
+  },
+  {
+    'update_id': 502797830,
+    'message': {
+      'message_id': 2,
+      'from': {
+        'id': 190114760,
+        'is_bot': False,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'language_code': 'en-GB'
+      },
+      'chat': {
+        'id': 190114760,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'type': 'private'
+      },
+      'date': 1531833664,
+      'text': '/start',
+      'entities': [
+        {
+          'offset': 0,
+          'length': 6,
+          'type': 'bot_command'
+        }
+      ]
+    }
+  },
+  {
+    'update_id': 502797831,
+    'message': {
+      'message_id': 3,
+      'from': {
+        'id': 190114760,
+        'is_bot': False,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'language_code': 'en-GB'
+      },
+      'chat': {
+        'id': 190114760,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'type': 'private'
+      },
+      'date': 1531833690,
+      'text': 'Hello'
+    }
+  },
+  {
+    'update_id': 502797832,
+    'message': {
+      'message_id': 6,
+      'from': {
+        'id': 190114760,
+        'is_bot': False,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'language_code': 'en-GB'
+      },
+      'chat': {
+        'id': 190114760,
+        'first_name': 'Volodymyr',
+        'last_name': 'Borovyk',
+        'username': 'VladimirBorovik',
+        'type': 'private'
+      },
+      'date': 1531837879,
+      'text': 'https://tproger.ru/translations/telegram-bot-create-and-deploy/',
+      'entities': [
+        {
+          'offset': 0,
+          'length': 63,
+          'type': 'url'
+        }
+      ]
+    }
+  }
+]
+{
+  'id': 190114760,
+  'first_name': 'Volodymyr',
+  'last_name': 'Borovyk',
+  'username': 'VladimirBorovik',
+  'type': 'private',
+  'photo': {
+    'small_file_id': 'AQADAgADqacxG8jrVAsACGrdDw4ABKPfJl02MoN_EAwDAAEC',
+    'big_file_id': 'AQADAgADqacxG8jrVAsACGrdDw4ABAEag1JyXdwgEgwDAAEC'
+  }
+}
