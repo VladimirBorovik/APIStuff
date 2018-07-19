@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527ee36-c183-4306-a476-0a8c9a582bfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chatResponseExample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TBot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TournamentsAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/TournamentsAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_button_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_button_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="Constants.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TBot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TBot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#1#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +45,8 @@
       <file leaf-file-name="TournamentsAPI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TournamentsAPI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -42,38 +56,45 @@
       </file>
       <file leaf-file-name="another_one_bot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/another_one_bot.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bot_button_game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot_button_game.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="for_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/for_info.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="and_another_bot_dekstop_telegram.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/and_another_bot_dekstop_telegram.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="NamedTuple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NamedTuple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <folding>
+                <element signature="e#341#355#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatResponseExample.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bot_button_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bot_button_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="and_another_bot_dekstop_telegram.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/and_another_bot_dekstop_telegram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-991" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatResponseExample.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatResponseExample.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="391">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -95,8 +116,11 @@
       <list>
         <option value="$PROJECT_DIR$/NamedTuple.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/TournamentsAPI.py" />
         <option value="$PROJECT_DIR$/chatResponseExample.json" />
+        <option value="$PROJECT_DIR$/bot_button_game.py" />
+        <option value="$PROJECT_DIR$/TournamentsAPI.py" />
+        <option value="$PROJECT_DIR$/Constants.py" />
+        <option value="$PROJECT_DIR$/TBot.py" />
       </list>
     </option>
   </component>
@@ -159,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TournamentsAPI">
+  <component name="RunManager" selected="Python.TBot">
     <configuration name="NamedTuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py37" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +198,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NamedTuple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="TBot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TBot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,9 +262,11 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.NamedTuple" />
       <item itemvalue="Python.TournamentsAPI" />
+      <item itemvalue="Python.TBot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TBot" />
         <item itemvalue="Python.TournamentsAPI" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.NamedTuple" />
@@ -254,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531837617239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added example for json response:">
+      <created>1531839957306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531839957306</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -294,7 +345,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Updated func sendMessage" />
     <MESSAGE value="Added new files for understanding;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new files for understanding;" />
+    <MESSAGE value="Added example for json response:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added example for json response:" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -343,16 +395,6 @@
     <entry file="jar://$USER_HOME$/venv/py37/Lib/site-packages/setuptools-39.1.0-py3.7.egg!/easy_install.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/another_one_bot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/another_one_bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -369,18 +411,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot_button_game.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/for_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_info.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Downloads/and_another_bot_dekstop_telegram.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -392,16 +428,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/and_another_bot_dekstop_telegram.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TournamentsAPI.py">
+    <entry file="file://$PROJECT_DIR$/chatResponseExample.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -412,10 +449,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatResponseExample.json">
+    <entry file="file://$PROJECT_DIR$/for_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="85">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/and_another_bot_dekstop_telegram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TournamentsAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/another_one_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#341#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot_button_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

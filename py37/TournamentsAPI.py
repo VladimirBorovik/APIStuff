@@ -2,9 +2,10 @@
 import telepot
 import requests
 
+USER_TOKEN = '661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0'
 
 message = 'From API!'
-bot = telepot.Bot('661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0')
+bot = telepot.Bot(USER_TOKEN)
 meta_info = bot.getUpdates()
 
 

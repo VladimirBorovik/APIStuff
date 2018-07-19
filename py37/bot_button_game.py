@@ -1,4 +1,4 @@
-import telebot
+import telepotot
 from telebot import types
 
 # токен
