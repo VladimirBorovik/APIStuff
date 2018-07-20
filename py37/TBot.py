@@ -13,18 +13,50 @@ class BotHandler:
         self.__botApi = f'https://api.telegram.org/bot{token}/'
         telepot.Bot(self.__botApi)
 
+    @property
     def bot_api(self):
-        self.__botApi = f'https://api.telegram.org/bot{token}/'
+        return self.__botApi
 
-    def get_updates(self):
+    def get_updates(self) -> str:
         method = 'getUpdates'
         response = requests.get(self.__botApi + method).json()
         return response
 
+    def send_message(self, chat_id, text):
+        params = {'chat_id': chat_id, 'text': text}
+        method = 'sendMessage'
+        response = requests.post(self.bot_api + method, params)
+        return response
+
+    def get_last_update(self) -> str:
+        get_result = self.get_updates()
+        if len(get_result['result']) > 0:
+            last_update = get_result['result'][-1]
+        return last_update
+
+    def get_chat_id(self) -> int:
+        last_update = self.get_last_update()
+        if len(last_update['message']) > 0:
+            last_update = last_update['message']['chat']['id']
+        else:
+            raise KeyError
+        return last_update
+
 
 bot = BotHandler(Constants.Token())
 res = bot.get_updates()
-print(res)
+print(res['result'])
+
+last = bot.get_last_update()
+print(bot.get_last_update())
+
+chat = bot.get_chat_id()
+print(chat)
+
+# for item in res['result']:
+#    print(item)
+
+
 
 # message = 'From API!'
 # bot = telepot.Bot(__USER_TOKEN)
