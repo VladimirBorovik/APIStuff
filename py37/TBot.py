@@ -38,10 +38,10 @@ class BotHandler:
         last_update = self.get_last_update()
         if len(last_update['message']) > 0:
             try:
-                last_update = last_update['message']['chat']['id']
+                last_update = last_update['message']['chat']['ide']
             except KeyError as error:
                 print(f'Can not match dictionary key {error}! Please try to check dictionary structure.')
-                return None
+                return -1
         return last_update
 
 
