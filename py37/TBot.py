@@ -37,9 +37,11 @@ class BotHandler:
     def get_chat_id(self) -> int:
         last_update = self.get_last_update()
         if len(last_update['message']) > 0:
-            last_update = last_update['message']['chat']['id']
-        else:
-            raise KeyError
+            try:
+                last_update = last_update['message']['chat']['id']
+            except KeyError as error:
+                print(f'Can not match dictionary key {error}! Please try to check dictionary structure.')
+                return None
         return last_update
 
 
@@ -52,9 +54,6 @@ print(bot.get_last_update())
 
 chat = bot.get_chat_id()
 print(chat)
-
-# for item in res['result']:
-#    print(item)
 
 
 
