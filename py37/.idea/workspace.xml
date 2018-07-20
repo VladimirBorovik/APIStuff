@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527ee36-c183-4306-a476-0a8c9a582bfd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/Constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/TBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/TestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TBot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TBot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TBot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="422">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/TestCase.py">
+      <file leaf-file-name="TestCase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -78,8 +77,9 @@
         <option value="$PROJECT_DIR$/bot_button_game.py" />
         <option value="$PROJECT_DIR$/TournamentsAPI.py" />
         <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/TBot.py" />
         <option value="$PROJECT_DIR$/venv/TestCase.py" />
+        <option value="$PROJECT_DIR$/TBot.py" />
+        <option value="$PROJECT_DIR$/TestCase.py" />
       </list>
     </option>
   </component>
@@ -111,11 +111,6 @@
               <item name="py37" type="b2602c69:ProjectViewProjectNode" />
               <item name="py37" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="py37" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py37" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -131,6 +126,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FreeStuff\APIStuff\py37" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\FreeStuff\APIStuff\py37" />
     </key>
@@ -147,26 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TestCase.py">
-    <configuration name="NamedTuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py37" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NamedTuple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for TestCase.TestCase.test_get_updates">
     <configuration name="TBot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py37" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +200,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Unittests for TestCase.TestCase.test_get_updates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="py37" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestCase.TestCase.test_get_updates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests in TestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py37" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,19 +227,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.NamedTuple" />
       <item itemvalue="Python.TournamentsAPI" />
       <item itemvalue="Python.TBot" />
       <item itemvalue="Python.TestCase" />
       <item itemvalue="Python tests.Unittests in TestCase.py" />
+      <item itemvalue="Python tests.Unittests for TestCase.TestCase.test_get_updates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for TestCase.TestCase.test_get_updates" />
         <item itemvalue="Python tests.Unittests in TestCase.py" />
         <item itemvalue="Python.TestCase" />
         <item itemvalue="Python.TBot" />
         <item itemvalue="Python.TournamentsAPI" />
-        <item itemvalue="Python.NamedTuple" />
       </list>
     </recent_temporary>
   </component>
@@ -311,8 +303,30 @@
       <option name="project" value="LOCAL" />
       <updated>1532088725316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added unit tests;">
+      <created>1532093982764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532093982764</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Moved unit tests;">
+      <created>1532094172578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532094172578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_TestCase_py - 2018.07.20 at 16h 42m 28s.xml">
+      <configuration name="Unittests in TestCase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestCase_TestCase_test_get_updates - 2018.07.20 at 16h 44m 32s.xml">
+      <configuration name="Unittests for TestCase.TestCase.test_get_updates" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -320,8 +334,8 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50104165" side_tool="true" weight="0.2678002" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.26689577" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50105375" side_tool="true" weight="0.26689577" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.26689577" />
       <window_info anchor="top" id="Version Control" order="0" sideWeight="0.49947917" weight="0.32943678" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -366,7 +380,9 @@
     <MESSAGE value="Modified function get_chat_id;" />
     <MESSAGE value="Fixed function get_chat_id:&#10;- Changed function returning value." />
     <MESSAGE value="Fixed function get_chat_id. Added func join();" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed function get_chat_id. Added func join();" />
+    <MESSAGE value="Added unit tests;" />
+    <MESSAGE value="Moved unit tests;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved unit tests;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -515,22 +531,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/TestCase.py">
+    <entry file="file://$PROJECT_DIR$/TBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="422">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TBot.py">
+    <entry file="file://$PROJECT_DIR$/TestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,7 +22,3 @@ class TestCase(unittest.TestCase):
     def test_get_chat_id(self):
         result = TBot.BotHandler(Constants.Token()).get_chat_id()
         self.assertIsNotNone(result)
-
-
-if __name__ == '__main__':
-    unittest.main()
