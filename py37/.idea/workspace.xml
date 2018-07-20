@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7527ee36-c183-4306-a476-0a8c9a582bfd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/TestCase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/TBot.py" afterDir="false" />
     </list>
@@ -30,11 +31,20 @@
       <file leaf-file-name="TBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="391">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/TestCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -65,6 +75,7 @@
         <option value="$PROJECT_DIR$/bot_button_game.py" />
         <option value="$PROJECT_DIR$/TournamentsAPI.py" />
         <option value="$PROJECT_DIR$/Constants.py" />
+        <option value="$PROJECT_DIR$/venv/TestCase.py" />
         <option value="$PROJECT_DIR$/TBot.py" />
       </list>
     </option>
@@ -96,6 +107,11 @@
             <path>
               <item name="py37" type="b2602c69:ProjectViewProjectNode" />
               <item name="py37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py37" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py37" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532083123314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed function get_chat_id:&#10;- Changed function returning value.">
+      <created>1532083742937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532083742937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,17 +341,11 @@
     <MESSAGE value="Added example for json response:" />
     <MESSAGE value="Added new functions;" />
     <MESSAGE value="Modified function get_chat_id;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified function get_chat_id;" />
+    <MESSAGE value="Fixed function get_chat_id:&#10;- Changed function returning value." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed function get_chat_id:&#10;- Changed function returning value." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/and_another_bot_dekstop_telegram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatResponseExample.json" />
     <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/NamedTuple.py" />
@@ -467,6 +484,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/TestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -476,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="391">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

@@ -19,13 +19,13 @@ class BotHandler:
 
     def get_updates(self) -> str:
         method = 'getUpdates'
-        response = requests.get(self.__botApi + method).json()
+        response = requests.get(str.join('', (self.__botApi, method))).json()
         return response
 
     def send_message(self, chat_id, text):
         params = {'chat_id': chat_id, 'text': text}
         method = 'sendMessage'
-        response = requests.post(self.bot_api + method, params)
+        response = requests.post(str.join('', (self.__botApi, method)), params)
         return response
 
     def get_last_update(self) -> str:
@@ -38,7 +38,7 @@ class BotHandler:
         last_update = self.get_last_update()
         if len(last_update['message']) > 0:
             try:
-                last_update = last_update['message']['chat']['ide']
+                last_update = last_update['message']['chat']['id']
             except KeyError as error:
                 print(f'Can not match dictionary key {error}! Please try to check dictionary structure.')
                 return -1
