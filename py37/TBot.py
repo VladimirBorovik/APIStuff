@@ -4,9 +4,7 @@ import Constants
 
 
 class BotHandler:
-    """
-    Class which describes main logic for telegram bot.
-    """
+    """Class which describes main logic for telegram bot."""
 
     def __init__(self, token: str) -> None:
         self.__userToken = token
@@ -52,9 +50,9 @@ class BotHandler:
         return last_update
 
 # bot = BotHandler(Constants.Token())
-#
-##bot.send_message(bot.get_chat_id(), 'Second message to personal Bot!')
-#
+
+# bot.send_message(bot.get_chat_id(), 'Second message to personal Bot!')
+
 # res = bot.get_updates()
 # print(res['result'])
 #

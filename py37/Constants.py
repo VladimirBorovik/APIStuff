@@ -1,8 +1,6 @@
 
 class Token:
-    """
-    Class which contains token for telegram bot.
-    """
+    """Class which contains token for telegram bot."""
 
     # Security token for telegram bot.
     __token = '661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0'
