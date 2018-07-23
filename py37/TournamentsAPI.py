@@ -10,7 +10,8 @@ meta_info = bot.getUpdates()
 
 
 response = requests.get('https://api.telegram.org/bot661730605:AAGMhc2ML5lxF5mxNCWIRqlT6g7Yk5z4p-0/getUpdates').json()
-
+response = requests.get(
+    "https://api.sportradar.us/soccer-t3/eu/en/teams/sr:competitor:1/profile.json?api_key=rpjetjuheffkq2attc4g9hq8")
 print(response['result'])
 
 res = bot.getChat(chat_id=190114760)
