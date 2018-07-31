@@ -13,11 +13,15 @@ post = {"author": "Mike"}
 
 # insert_data = client.insert_one(document=response)
 
-client = MongoClient('mongodb+srv://sa:98913221@cluster2-usfat.mongodb.net/test?retryWrites=true').get_database(
-    name='MovieStorage').get_collection('MovieRate')
+client = MongoClient('mongodb+srv://sa:98913221@cluster2-usfat.mongodb.net/test?retryWrites=true') \
+    .get_database(name='MovieStorage') \
+    .get_collection('MovieRate')
+
 print(client.name)
 
-response = requests.get('http://www.omdbapi.com/?t=Blade+Runner&plot=full&apikey=b792ed2a').json()
+response = requests.get('http://www.omdbapi.com/?t=The+Godfather&plot=full&apikey=b792ed2a').json()
 print(response)
 
+# response2 =
+# forecast url -- 'http://dataservice.accuweather.com/forecasts/v1/daily/1day/11?apikey=nLIsTMwLA6fGbwAGdU7RjemBFA3HgT6l&details=true&metric=true'
 # insert_data = client.insert_one(document=response)
