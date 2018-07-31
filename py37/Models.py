@@ -22,6 +22,10 @@ print(client.name)
 response = requests.get('http://www.omdbapi.com/?t=The+Godfather&plot=full&apikey=b792ed2a').json()
 print(response)
 
-# response2 =
+responseWeatherForecast = requests.get(
+    'http://dataservice.accuweather.com/forecasts/v1/daily/1day/11?apikey=nLIsTMwLA6fGbwAGdU7RjemBFA3HgT6l&details=true&metric=true').json()
+print(responseWeatherForecast)
+
 # forecast url -- 'http://dataservice.accuweather.com/forecasts/v1/daily/1day/11?apikey=nLIsTMwLA6fGbwAGdU7RjemBFA3HgT6l&details=true&metric=true'
+
 # insert_data = client.insert_one(document=response)
